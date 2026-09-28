@@ -1,5 +1,5 @@
 /* 日貫 現地記録（2D）— オフライン用。版が変わると古いキャッシュを消す */
-const C = "hinui-record-3347cd5f";
+const C = "hinui-record-b9890eab";
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(C).then(c => c.addAll(["./", "./index.html"])).then(() => self.skipWaiting()));
 });
