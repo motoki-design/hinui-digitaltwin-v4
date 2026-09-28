@@ -45,7 +45,7 @@ code{background:#1a1f27;padding:1px 6px;border-radius:4px;font-size:12px}
 <h1>日貫 デジタルツイン v4</h1>
 <p class="lead">島根県邑南町日貫地区。県の航空レーザー測量（0.5 m）にもとづく地形と、
 現地の計測を重ねて見るための試作です。ブラウザで開くだけで動きます（インストール不要・ネット接続不要）。スマートフォンでも見られます。</p>
-<p class="lead"><b>v4（2026-09-28）で変えたこと</b>：実験林の谷を<b>スマートフォンの指で操作できる</b>ようにしました。1本指で動かす／2本指でつまんで寄る・広げて引く／2本指をひねって回す。<b>画面の横幅5 mまで寄れ</b>、画面下に今の横幅（m）が出ます。「現在地を出す」では、端末のGPSの精度を<b>実寸の円</b>で描きます。広域はv3と同じです。v3は <a href="https://motoki-design.github.io/hinui-digitaltwin-v3/">https://motoki-design.github.io/hinui-digitaltwin-v3/</a> にそのまま残しています。</p>
+<p class="lead"><b>v4（2026-09-28）で変えたこと</b>：実験林の谷を<b>スマートフォンの指で操作できる</b>ようにしました。1本指で動かす／2本指でつまんで寄る・広げて引く／2本指をひねって回す。<b>画面の横幅5 mまで寄れ</b>、画面下に今の横幅（m）が出ます。「現在地を出す」では、端末のGPSの精度を<b>実寸の円</b>で描きます。広域はv3と同じです。同日、スマートフォンで現地の点を記録する<b>現地記録（2D・試作）</b>を足しました。v3は <a href="https://motoki-design.github.io/hinui-digitaltwin-v3/">https://motoki-design.github.io/hinui-digitaltwin-v3/</a> にそのまま残しています。</p>
 
 <div class="cards">
   <a class="card" href="valley/">
@@ -55,6 +55,13 @@ code{background:#1a1f27;padding:1px 6px;border-radius:4px;font-size:12px}
     <div class="spec">地形 <b>641,601点</b>（0.5 m格子）／地表の絵 8枚<br>
       うち <b>10 cm の陰影・局所起伏</b>（0.098 m/px・地上計測の点群から作った地面）<br>
       現地写真 <b>220点</b>（8/19 48点＋9/21 172点）／点群 <b>551,075点</b>（色つき）／土砂災害警戒区域 11面<br>      現地で取った点の受け皿・<b>現在地</b>・<b>エリアを描いて書き出す</b><br>      施設 5件（★治山えん堤の訂正）／伐採予定域（仮）2.03 ha<br>      植栽エリア 921.8 m²＋その中に置いた椿 <b>450本（推定）</b></div>
+  </a>
+  <a class="card" href="record/">
+    <span class="n">2D ／ スマートフォン向け</span>
+    <h3>現地記録（試作）</h3>
+    <p>実験林の谷を真上から見て、<b>立っている場所を地図でタップして点を記録</b>する版。椿（白テープの番号）・土壌・観察・撮影ポイント・センサーを、写真と向きごと端末に貯めて1つのファイルに書き出します。計画点への<b>ナビ</b>（直線と距離）もあります。</p>
+    <div class="spec">電波の無い谷で使う前に、電波のある所で一度開いてください（「オフライン可」が出れば準備済み）<br>
+      記録は端末の中だけに残ります（サーバには送りません）／約3.5 MB</div>
   </a>
   <a class="card" href="wide/">
     <span class="n">2 m ／ 1.5 km 四方</span>
